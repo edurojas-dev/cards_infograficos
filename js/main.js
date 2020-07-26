@@ -17,14 +17,14 @@ $(document).ready(()=>{
         {
             animacao: 'animated slideInDown',
             titulo: 'Desenvolvimento Web',
-            ilustra: '../img/img1.jpg',
+            ilustra: './img/img1.jpg',
             conteudo: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sit, cumque dolorum ullam eius obcaecati, porro corrupti veritatis laboriosam architecto nobis esse. Eaque. Quis dolore ducimus similique sunt sequi porro unde, placeat,`
         },
 
         {
             animacao: 'animated slideInLeft',
             titulo: 'Carreira Freela',
-            ilustra: '../img/img2.jpg',
+            ilustra: './img/img2.jpg',
             conteudo: `Ipsum sit, cumque dolorum ullam eius obcaecati, porro corrupti veritatis laboriosam architecto nobis esse. Eaque, ea optio itaque dolor culpa vel odit!
             At labore omnis neque facere.`
         },
@@ -32,14 +32,14 @@ $(document).ready(()=>{
         {
             animacao: 'animated slideInRight',
             titulo: 'Programação com JS',
-            ilustra: '../img/javascript.png',
+            ilustra: './img/javascript.png',
             conteudo: `A linguagem de programação mais utilizada na Web, desde pequenas páginas, até robustas aplicações de vários portes.`
         },
 
         {
             animacao: 'animated slideInUp',
             titulo: 'Programação com Python',
-            ilustra: '../img/python.png',
+            ilustra: './img/python.png',
             conteudo: `A linguagem de programação utilizada no desenvolvimento de IA, back-end de app Web e Games.`
         }
 
