@@ -1,0 +1,59 @@
+/* Estilos a ser implementados com js */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.bgDark{
+    background-color: #303952;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.bgCard{
+    background-color: #596275;
+    color: whitesmoke;
+    /* padding: 30px; */
+    height: 300px;
+    width: 55%;
+    margin: 40px auto;
+    border-radius: 40px 100px;
+    box-shadow: 10px 10px 5px black;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.bloco-img, .bloco-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-img{
+    width: 30%;
+    /* background-image: url('../img/img1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 0 0 90px;
+}
+
+.bloco-conteudo{
+    width: 70%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.bloco-img img{
+    width: 80%;
+    border-radius: 10%;
+    margin: auto auto;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0;
+}
